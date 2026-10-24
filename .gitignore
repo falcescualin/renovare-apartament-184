@@ -1,0 +1,62 @@
+# Gitignore for Interior Design / Renovation Project
+
+# Large binary files - do NOT commit
+*.blend
+*.blend1
+*.blend2
+
+# FreeCAD backup files
+*.FCBak
+
+# Blender cache/output directories
+blender_export*/
+
+# Output renders and images (too large for git)
+randari/
+output/
+texturi/
+*_3D.png
+Plan_3D*.png
+
+# Temporary files
+tmp/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Excel intermediate files
+*_3D.xlsx
+*_3D.csv
+
+# Archive folder
+_arhiva/
+
+# Large exports and STEP files
+tmp/feronerie_R2/
+tmp/electric_R11/
+tmp/mobilier_plan*.json
+tmp/inventar_freecad_mobilier.json
+tmp/diferente_freecad_blender.json
+tmp/timeline.json
+
+# Devize Excel - keep R04 (current) but archive others
+Deviz_materiale_ap184_R0*.xlsx
+Debitare_R03_comanda.xlsx
+Dulap_hol_ap184_Debimax.xlsx
+Dulap_hol_ap184_Mambricolaj.xlsx
+
+# Only keep key PDFs
+output/pdf/Apartament_184_Ghid_instalare_electrica_R11b.pdf
+output/pdf/Apartament_184_Deviz_materiale_R04.pdf
+output/pdf/Apartament_184_Plan_lucrari_R02.pdf
